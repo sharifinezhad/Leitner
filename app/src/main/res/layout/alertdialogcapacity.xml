@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تنظیمات مرحله"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#0a23af"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="گنجایش مرحله"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="#c51837"/>
+    <EditText
+        android:id="@+id/cardnumber_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="عدد کارت"
+        android:textSize="25dp"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_timeok_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="تایید" />
+
+    <Button
+        android:id="@+id/btn_timecancel_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="انصراف" />
+    </LinearLayout>
+
+</LinearLayout>
