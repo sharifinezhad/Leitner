@@ -34,7 +34,7 @@ class  MainActivity : AppCompatActivity() {
         val intent = Intent(applicationContext, serviceClass)
 
         //open leitner
-        var btn_gotoleitner = findViewById<Button>(R.id.btn_gotoleitner_id)
+        val btn_gotoleitner = findViewById<Button>(R.id.btn_gotoleitner_id)
         btn_gotoleitner.setOnClickListener {
 
             val goToLeitner = Intent(this, Leitner::class.java)
@@ -42,7 +42,7 @@ class  MainActivity : AppCompatActivity() {
         }
 
         //oprn menu leitner
-        var btn_gotoMenuleitner = findViewById<Button>(R.id.btn_gotoMenuL_id)
+        val btn_gotoMenuleitner = findViewById<Button>(R.id.btn_gotoMenuL_id)
         btn_gotoMenuleitner.setOnClickListener {
 
             val goTomenuleitner= Intent(this, Recycler_main::class.java)
@@ -50,8 +50,8 @@ class  MainActivity : AppCompatActivity() {
         }
 
 //open test
-        var button_test = findViewById<Button>(R.id.btn_test)
-        var button_test2 = findViewById<Button>(R.id.btn_test2)
+        val button_test = findViewById<Button>(R.id.btn_test)
+        val button_test2 = findViewById<Button>(R.id.btn_test2)
         button_test.setOnClickListener{
             if (!isServiceRunning(serviceClass)) {
                 startService(Intent(applicationContext, TimeInBackgroundServices::class.java))
@@ -61,10 +61,12 @@ class  MainActivity : AppCompatActivity() {
             }
         }
         button_test2.setOnClickListener{
-            dbHandler.resetReadyCard(1)
+            dbHandler.resetReadyCard(2)
             //dbHandler.setReadyCard(1)
             dbHandler.setReadyCard(2)
             dbHandler.setReadyCard(3)
+            dbHandler.setReadyCard(4)
+            dbHandler.setReadyCard(5)
 
            dbHandler.find_readycard(2)
 /*
