@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akronim</item>
+        <item>@font/aladin</item>
+        <item>@font/alex_brush</item>
+        <item>@font/arizonia</item>
+        <item>@font/asset</item>
+        <item>@font/bevan</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/butterfly_kids</item>
+        <item>@font/dancing_script</item>
+        <item>@font/diplomata</item>
+        <item>@font/dynalight</item>
+    </array>
+</resources>

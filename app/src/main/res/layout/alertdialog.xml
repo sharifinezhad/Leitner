@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtstep_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="تغییر تعداد مراحل"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etxt_step_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="لطفا تعداد مراحل دلخواه را وارد کنید" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="گنجایش مرحله"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="#c51837"/>
+    <EditText
+        android:id="@+id/cardnumber_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="تعداد کارتهای مورد نظر در یک روز را وارد کنید"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_stepok_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="تایید" />
+
+        <Button
+            android:id="@+id/btn_stepcancel_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="انصراف" />
+
+
+    </LinearLayout>
+</LinearLayout>
