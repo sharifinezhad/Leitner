@@ -68,6 +68,8 @@ class  MainActivity : AppCompatActivity() {
             dbHandler.setReadyCard(4)
             dbHandler.setReadyCard(5)
             dbHandler.setReadyCard(6)
+            dbHandler.setReadyCard(7)
+            dbHandler.setReadyCard(8)
 
            dbHandler.find_readycard(2)
 /*
