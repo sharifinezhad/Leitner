@@ -1,1 +1,1 @@
-# Leitner
+# magicy
