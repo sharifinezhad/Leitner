@@ -64,7 +64,8 @@ class  MainActivity : AppCompatActivity() {
             dbHandler.resetReadyCard(2)
             //dbHandler.setReadyCard(1)
             dbHandler.setReadyCard(2)
-            
+            //new ...............................
+
 
            dbHandler.find_readycard(2)
 /*
